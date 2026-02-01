@@ -68,6 +68,8 @@ The Support Vector Machine (SVM) with an RBF kernel was said to be the best mode
 
 These results indicate that the SVM with an RBF kernel effectively captures non-linear patterns in the data. The high accuracy, precision, recall, and F1-score (all ~0.98) demonstrate that the model performs consistently across both classes, with minimal misclassification.
 
+From the confusion matrix, we observe that only 12 out of 634 samples were misclassified (4 false positives and 8 false negatives), highlighting the model's robustness. The near-equal precision and recall values for both classes indicate a **balanced performance**, meaning the model is equally capable of correctly identifying positive and negative samples without bias toward one class.
+
 ## Conclusion
 After comparing multiple machine learning models, the Support Vector Machine with an RBF kernel emerged as the best-performing model for this dataset. Its ability to capture complex, non-linear relationships led to superior accuracy compared to other models. This project highlights the importance of systematic model evaluation and comparison in machine learning.
 
