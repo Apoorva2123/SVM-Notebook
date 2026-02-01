@@ -72,7 +72,7 @@ From the confusion matrix, we observe that only 12 out of 634 samples were miscl
 
 Additionally, the strong performance suggests that the selected features—such as mean frequency, spectral entropy, skewness, and kurtosis—carry meaningful information for classification. This underscores the importance of feature engineering and selection in supervised learning tasks.  
 
-
+Overall, we can interpret that the SVM with an RBF kernel not only generalizes well to unseen data but also effectively models the underlying non-linear relationships in the dataset, making it a reliable choice for this classification problem.
 
 ## Conclusion
 After comparing multiple machine learning models, the Support Vector Machine with an RBF kernel emerged as the best-performing model for this dataset. Its ability to capture complex, non-linear relationships led to superior accuracy compared to other models. This project highlights the importance of systematic model evaluation and comparison in machine learning.
