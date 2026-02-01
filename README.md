@@ -47,7 +47,16 @@ Based on accuracy metrics, the top three performing models are:
 - Compared multiple classification algorithms  
 - Applied hyperparameter tuning for optimization  
 - Evaluated and interpreted model performance  
-- Selected the best-performing model based on results  
+- Selected the best-performing model based on results
+
+## Results
+The Support Vector Machine (SVM) with an RBF kernel was said to be the best model on the dataset. Hyperparameter tuning identified **gamma = 0.03** as the optimal value. The model achieved excellent performance metrics on the test set:
+
+- **Test Accuracy:** 0.981  
+- **Test Precision:** 0.981  
+- **Test Recall:** 0.981  
+- **Test F1 Score:** 0.981  
+
 
 ## Conclusion
 After comparing multiple machine learning models, the Support Vector Machine with an RBF kernel emerged as the best-performing model for this dataset. Its ability to capture complex, non-linear relationships led to superior accuracy compared to other models. This project highlights the importance of systematic model evaluation and comparison in machine learning.
