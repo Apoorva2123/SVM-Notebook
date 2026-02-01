@@ -70,6 +70,10 @@ These results indicate that the SVM with an RBF kernel effectively captures non-
 
 From the confusion matrix, we observe that only 12 out of 634 samples were misclassified (4 false positives and 8 false negatives), highlighting the model's robustness. The near-equal precision and recall values for both classes indicate a **balanced performance**, meaning the model is equally capable of correctly identifying positive and negative samples without bias toward one class.
 
+Additionally, the strong performance suggests that the selected features—such as mean frequency, spectral entropy, skewness, and kurtosis—carry meaningful information for classification. This underscores the importance of feature engineering and selection in supervised learning tasks.  
+
+
+
 ## Conclusion
 After comparing multiple machine learning models, the Support Vector Machine with an RBF kernel emerged as the best-performing model for this dataset. Its ability to capture complex, non-linear relationships led to superior accuracy compared to other models. This project highlights the importance of systematic model evaluation and comparison in machine learning.
 
