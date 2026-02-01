@@ -58,7 +58,13 @@ The Support Vector Machine (SVM) with an RBF kernel was said to be the best mode
 - **Test F1 Score:** 0.981
 
 ### Classification Report
-
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.97      | 0.99   | 0.98     | 311     |
+| 1     | 0.99      | 0.98   | 0.98     | 323     |
+| **Accuracy** | - | - | 0.98 | 634 |
+| **Macro Avg** | 0.98 | 0.98 | 0.98 | 634 |
+| **Weighted Avg** | 0.98 | 0.98 | 0.98 | 634 |
 
 ## Conclusion
 After comparing multiple machine learning models, the Support Vector Machine with an RBF kernel emerged as the best-performing model for this dataset. Its ability to capture complex, non-linear relationships led to superior accuracy compared to other models. This project highlights the importance of systematic model evaluation and comparison in machine learning.
