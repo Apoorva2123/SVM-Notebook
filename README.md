@@ -55,7 +55,9 @@ The Support Vector Machine (SVM) with an RBF kernel was said to be the best mode
 - **Test Accuracy:** 0.981  
 - **Test Precision:** 0.981  
 - **Test Recall:** 0.981  
-- **Test F1 Score:** 0.981  
+- **Test F1 Score:** 0.981
+
+### Classification Report
 
 
 ## Conclusion
